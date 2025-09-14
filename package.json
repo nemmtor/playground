@@ -1,0 +1,23 @@
+{
+  "name": "playground",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "check-types": "tsc -b tsconfig.json",
+    "start": "bun src/main.ts"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.2.5",
+    "@effect/language-service": "^0.44.0",
+    "@types/bun": "^1.2.23"
+  },
+  "peerDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@effect/platform": "^0.92.1",
+    "@effect/platform-bun": "^0.81.1",
+    "axios": "^1.12.2",
+    "effect": "^3.18.4"
+  }
+}
